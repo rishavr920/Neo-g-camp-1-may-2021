@@ -6,117 +6,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> component library.</title>
+    <!--       css 1st way of styling.
+         <style>
+        body{
+            color:green;
+        }
+    </style> -->
+
+    <!-- Third way of doing css:External link -->
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Rishav's component library.</h1>
-    <p>I am attending neo-g-camp and I want to make a library which would
-        make all my projects look good and consistent.
-    </p>
-    <hr>
+    <h1 id="lib-header">Rishav's component library.
+        <!--(this is also second way of styling if 
+        you want to syle any particular element. --></h1>
+        <p class="para">I am attending neo-g-camp and I want to make a library which would
+            make all my projects look good and consistent.
+        </p>
+        <hr>
 
 
-    <h2>@typography</h2>
-    <h1>This is the biggest heading.</h1>
-    <h2>This is the second heading.</h2>
-    <p>Let we show you the normal text. This is free flowing and will wrap at the end
-        line of a paragraph.
-    </p>
-    <small>This is relatively smallest text.</small>
+        <h2>@typography</h2>
+        <h1>This is the biggest heading.</h1>
+        <h2>This is the second heading.</h2>
+        <p class="para">Let we show you the normal text. This is free flowing and will wrap at the end
+            line of a paragraph.
+        </p>
+        <small class="para">This is relatively smallest text.</small>
 
-    <hr>
+        <hr>
 
-    <h2>@containers </h2>
+        <h2>@containers </h2>
 
-    <h3>fluid container</h3>
+        <h3>fluid container</h3>
 
-    <div>This is going to be a fluid container. It will go full width of page with some margin.</div>
+        <div class="para">This is going to be a fluid container. It will go full width of page with some margin.</div>
 
-    <h3>center container</h3>
-    <div>This is going to be a centered container. It will go till the specified width.</div>
+        <h3>center container</h3>
+        <div class="para">This is going to be a centered container. It will go till the specified width.</div>
 
-    <hr>
+        <hr>
 
-    <h2>@links</h2>
-    <a href="/">Primary Link</a>
+        <h2>@links</h2>
+        <a href="/">Primary Link</a>
 
-    <a href="?">Secondary Link</a>
+        <a href="?">Secondary Link</a>
 
-    <hr>
-    <h2>@lists</h2>
-    <h3>unordered lists</h3>
+        <hr>
+        <h2>@lists</h2>
+        <h3>unordered lists</h3>
 
-    <ul>
-        <li>Item One</li>
-        <li>Itme Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul>
-        <li>Inline item one</li>
-        <li>Inline item two</li>
-        <li>Inline item three</li>
-
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol>
-        <li>milk</li>
-        <li>egg</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-    <h2>@nav</h2>
-
-    <nav>
-        <div>
-            <ul>
-                <li>
-                    <a href="/">home</a>
-                </li>
-                <li>
-                    <a href="?">product</a>
-                </li>
-                <li>
-                    <a href="/">about</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <hr>
-
-    <h2>@header</h2>
-
-    <img src="image/hero.svg">
-    <h2>heading inside header</h2>
-
-    <hr>
-    <h2>@section</h2>
-
-    <section>
-        <h3>@white section</h3>
-        <p>This will have white background.</p>
-    </section>
-
-    <section>
-        <h3>@off white section</h3>
-        <p>This will have gray background.</p>
-
-    </section>
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>some small heading inside footer.</div>
         <ul>
-            <li>social one </li>
-            <li>social two</li>
-            <li>social three</li>
+            <li>Item One</li>
+            <li>Itme Two</li>
+            <li>Item Three</li>
         </ul>
-    </footer>
+
+        <h3>unordered inline list</h3>
+
+        <ul>
+            <li>Inline item one</li>
+            <li>Inline item two</li>
+            <li>Inline item three</li>
+
+        </ul>
+
+        <h3>reverse ordered list</h3>
+        <ol>
+            <li>milk</li>
+            <li>egg</li>
+            <li>bread</li>
+        </ol>
+
+        <hr>
+        <h2>@nav</h2>
+
+        <nav>
+            <div>
+                <ul>
+                    <li>
+                        <a href="/">home</a>
+                    </li>
+                    <li>
+                        <a href="?">product</a>
+                    </li>
+                    <li>
+                        <a href="/">about</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <hr>
+
+        <h2>@header</h2>
+
+        <img src="image/hero.svg">
+        <h2>heading inside header</h2>
+
+        <hr>
+        <h2>@section</h2>
+
+        <section>
+            <h3>@white section</h3>
+            <p>This will have white background.</p>
+        </section>
+
+        <section>
+            <h3>@off white section</h3>
+            <p>This will have gray background.</p>
+
+        </section>
+        <hr>
+        <h2>@footer</h2>
+        <footer>
+            <div>some small heading inside footer.</div>
+            <ul>
+                <li>social one </li>
+                <li>social two</li>
+                <li>social three</li>
+            </ul>
+        </footer>
 </body>
 
 </html>
