@@ -5,6 +5,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+hr{
+    margin: 3rem /*(for top and bottom)*/ 0rem /*(for right and left)*/; 
+}
 /*container*/
 .container{
     padding: 0rem 1rem;
