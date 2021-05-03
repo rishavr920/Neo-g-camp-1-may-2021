@@ -1,133 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-:root{
+
+:root {
     --primary-color: #4F46E5;
     --dark-gray: #6B7280;
-    --off-white:#E5E7EB;
-}
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin:0px;
+    --off-white: #E5E7EB;
 }
 
-hr{
-    margin: 3rem /*(for top and bottom)*/ 0rem /*(for right and left)*/; 
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
+
+hr {
+    margin: 3rem
+        /*(for top and bottom)*/
+        0rem
+        /*(for right and left)*/
+    ;
+}
+
 /*container*/
-.container{
+.container {
     padding: 0rem 1rem;
 }
-.container-center{
+
+.container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
     padding-bottom: 3rem;
 }
 
-.container-fluid{
-    padding-left:1rem;
-    padding-right:1rem;
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /*links*/
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
- 
- .primary-link{
-     background-color: var(--primary-color);
-     border-radius: 0.5rem;
 
-     color:white;
- }
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
 
- .secondary-link{
-     color:var(--primary-color);
-     border-radius:0.5rem;
-     border:1px solid var(--primary-color);
- }
+    color: white;
+}
 
-
- /*lists*/
-
- .list-non-bullet{
-     list-style:none;
- }
- .list-item-inline{
-     display: inline;
-     padding:0rem 0.5rem;
- }
-
- /*navigation*/
- .navigation{
-     background-color:var(--primary-color);
-     color:white;
-     padding: 1rem;
-     border-bottom-left-radius: 1rem;
-  
- }
-    .nav-brand{
-            font-weight:bold;
-            font-size:1.1rem;
-    }
-    .navigation .nav-pills{
-        text-align: right;
-    }
-    .navigation .link{
-     color:white;
-     } 
-
-     .navigation .link-active{
-         font-weight:bold;
-     }
-
-     /**header**/
-     .hero{
-         padding: 2rem;
-
-     }
-
-     .hero .hero-img{
-         max-width:350px;
-         display: block;
-         margin:auto;
-     }
-
-     .hero .hero-heading{
-         color: var(--dark-gray);
-         padding-top:4rem;
-         text-align:center;
-     }
-
-     .hero .hero-heading .heading-inverted{
-         color:var(--primary-color);
-     } 
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
 
 
-     /*section*/
+/*lists*/
 
-     .section h1{
-         text-align:center;
-         padding:2rem;
-     }
+.list-non-bullet {
+    list-style: none;
+}
 
-     .ow{
-         background-color: var(--off-white);
-     } 
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
 
-     /*linkss*/
-     .footer{
-         background-color:var(--primary-color);
-         padding:2rem;
-         text-align:center;
-         color:white;
-         border-top-right-radius: 1rem;
+/*navigation*/
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 
-     }
-     .footer .link{
-         border-radius:1rem;
-         border-color: crimson;
-         margin:3rem 3rem 3rem 3rem;
-         background-color:white;
-         
-     }
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/**header**/
+.hero {
+    padding: 2rem;
+    text-decoration: none;
+
+
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.hero .hero-heading {
+    color: var(--dark-gray);
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+
+/*section*/
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/*linkss*/
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.footer .link {
+    border-radius: 1rem;
+    border-color: crimson;
+    margin: 3rem 3rem 3rem 3rem;
+    background-color: white;
+
+}
